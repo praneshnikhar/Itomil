@@ -13,7 +13,12 @@ A decentralized, browser-native P2P file transfer app using WebRTC.
 1. Install dependencies:
 ```bash
 npm install express socket.io
-
+```
 
 <img width="1462" alt="Image" src="https://github.com/user-attachments/assets/ab63434c-0fb8-420d-9e3d-c95870bcf600" />
 <img width="1470" alt="Image" src="https://github.com/user-attachments/assets/9c23270e-33bc-490e-8ab2-3c31a11f5c6d" />
+
+
+
+
+
