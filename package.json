@@ -1,0 +1,17 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "A decentralized, browser-native P2P file transfer app using WebRTC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "simple-peer": "^9.11.1",
+    "socket.io": "^4.8.1"
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Itomil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-left"></div>
+      <div class="navbar-center">Itomil</div>
+      <div class="navbar-right">
+        <button class="navbar-btn">Send</button>
+        <button class="navbar-btn">Receive</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    
+    <div class="box-container">
+      <h1>Itomil File Sharing</h1>
+
+      
+      <div class="file-input-container">
+        <button id="chooseFileBtn">
+          Choose
+        </button>
+
+        <input type="file" id="fileInput" style="display: none;" />
+        <span id="fileName">No file chosen</span>
+      </div>
+
+      
+      <div class="button-container">
+        <button id="sendBtn" class="navbar-btn">Send</button>
+      </div>
+
+      
+      <div id="status">✅ Connected to peer!</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+  <script src="https://unpkg.com/simple-peer@9.11.1/simplepeer.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
