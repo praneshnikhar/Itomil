@@ -18,8 +18,8 @@ npm install express socket.io
 
 Special thanks to the following contributors:
 
-- [@username1](https://github.com/tanishk7531)
-- [@username2](https://github.com/soumya525) 
+- [@tanishk7531](https://github.com/tanishk7531)
+- [@soumya525](https://github.com/soumya525) 
 
 
 
